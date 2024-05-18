@@ -1,0 +1,15 @@
+PRODUTOS
+id (UUID)
+name (string)
+value_min (bigint)
+value_max (bigint)
+disponivel (boolean)
+image/url (string)
+produto <-> table users (key estrangeira)
+
+USERS
+id (UUID)
+name (string)
+email (string)
+telefone (string)
+senha (string)
