@@ -15,7 +15,7 @@ import java.util.UUID;
 @Getter
 @Setter
 
-public class ProdutoModelo extends RepresentationModel<ProdutoModelo> implements Serializable {
+public class ProductModel extends RepresentationModel<ProductModel> implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 

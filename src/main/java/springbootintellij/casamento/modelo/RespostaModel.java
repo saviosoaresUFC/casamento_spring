@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 @Getter
 @Setter
 
-public class RespostaModelo {
+public class RespostaModel {
     private String mensagem;
 }
